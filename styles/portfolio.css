@@ -1,9 +1,38 @@
-
-h1 {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
+:root {
+    --heading-font: 'Nunito', sans-serif;
 }
-p {
-    font-family: 'Lato', sans-serif;
+
+.container {
+    text-align: center;
+}
+.index-img {
+    width: 500px;
+    border-radius: 5px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 50px;
+}
+
+.heading-container {
+    position: relative;
+    bottom: 220px;
+    text-align: center;
+    color: white;
+    height: 0;
+}
+h1 {
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 70px;
+}
+h3 {
     font-size: 18px;
+}
+.contact-btn {
+    background-color: orange;
+    text-align: center;
+    padding: 10px 80px;
 }

@@ -3,12 +3,10 @@
 }
 
 body {
-    background-color: #212121;
-}
-
-.container {
+    background-color: #eeceab;
     text-align: center;
 }
+
 .index-img {
     width: 500px;
     border-radius: 5px;
@@ -35,8 +33,39 @@ h1 {
 h3 {
     font-size: 18px;
 }
+h2 {
+    font-size: 30px;
+    line-height: 2;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 .contact-btn {
     background-color: #F07E31;
     text-align: center;
     padding: 10px 80px;
+}
+
+.images {
+    width: 400px;
+
+}
+.project-presentation {
+    margin-top: 90px;
+}
+.project-description {
+
+}
+.projects-btn {
+    color: #F07E31;
+    text-align: center;
+    padding: 10px 80px;
+    border: 2px solid #F07E31;
+    margin: 30px 0;
+}
+
+@media (max-width: 900px) {
+    .project-presentation {
+        margin-top: 0;
+    }
 }

@@ -67,6 +67,12 @@ h2 {
 .about-img {
     width: 450px;
 }
+
+.about-content {
+    line-height: 1.7;
+}
+
+
 @media (max-width: 900px) {
     .project-presentation {
         margin-top: 0;
@@ -86,5 +92,12 @@ h2 {
     .about-img {
         margin: 50px 30px;
         width: 300px;
+    }
+
+    .about-content h1 {
+        font-size: 40px;
+    }
+    .about-content p {
+        margin: 15px 20px;
     }
 }

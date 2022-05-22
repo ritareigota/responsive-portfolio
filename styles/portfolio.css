@@ -70,6 +70,35 @@ h2 {
     line-height: 1.7;
 }
 
+nav {
+    padding: 30px;
+}
+
+.navbar-symbol {
+    font-size: 20px;
+    font-weight: 500;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 25px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    transition: all 100ms ease-in-out;
+    color: #F07E31;
+}
+.active {
+    color: #F07E31;
+    font-weight: 500;
+}
+
 
 @media (max-width: 900px) {
     .project-presentation {
@@ -98,4 +127,12 @@ h2 {
     .content p {
         margin: 15px 20px;
     }
+
+    .navbar-symbol {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+    nav li {
+        font-size: 12px;
 }

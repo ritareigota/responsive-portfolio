@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #eeceab;
+    background-color: #f4e4d5;
     text-align: center;
 }
 
@@ -64,12 +64,27 @@ h2 {
     margin: 30px 0;
 }
 
+.about-img {
+    width: 450px;
+}
 @media (max-width: 900px) {
     .project-presentation {
         margin-top: 0;
     }
 
     .index-img {
-        width: 400px;
+        width: 300px;
+    }
+    .heading-container h1 {
+        font-size: 35px;
+    }
+
+    .heading-container h3 {
+        font-size: 14px;
+    }
+
+    .about-img {
+        margin: 50px 30px;
+        width: 300px;
     }
 }

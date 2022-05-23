@@ -1,9 +1,10 @@
 :root {
     --heading-font: 'Nunito', sans-serif;
+    --primary-color: #F07E31;
+    --secondary-color: #f4e4d5;
 }
 
 body {
-    background-color: #f4e4d5;
     text-align: center;
 }
 
@@ -41,7 +42,7 @@ h2 {
     margin-bottom: 20px;
 }
 .contact-btn {
-    background-color: #F07E31;
+    background-color: var(--primary-color);
     text-align: center;
     padding: 10px 80px;
 }
@@ -55,10 +56,10 @@ h2 {
 }
 
 .projects-btn {
-    color: #F07E31;
+    color: var(--primary-color);
     text-align: center;
     padding: 10px 80px;
-    border: 2px solid #F07E31;
+    border: 2px solid var(--primary-color);
     margin: 30px 0;
 }
 
@@ -70,8 +71,9 @@ h2 {
     line-height: 1.7;
 }
 
-nav {
-    padding: 30px;
+.navbar-container {
+    background-color: var(--secondary-color);
+    padding: 20px;
 }
 
 .navbar-symbol {
@@ -92,13 +94,39 @@ nav a {
 
 nav a:hover {
     transition: all 100ms ease-in-out;
-    color: #F07E31;
+    color: var(--primary-color);
 }
 .active {
-    color: #F07E31;
+    color: var(--primary-color);
     font-weight: 500;
 }
 
+footer {
+    margin: 60px 100px;
+    padding: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+footer .email-link:hover {
+    color: #f03131;
+}
+
+footer .social-links a {
+    padding: 20px;
+    color:var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: #f03131;
+}
 
 @media (max-width: 900px) {
     .project-presentation {
@@ -135,4 +163,10 @@ nav a:hover {
     }
     nav li {
         font-size: 12px;
+    }
+
+    footer {
+        margin: 40px 20px;
+        padding: 40px;
+    }
 }

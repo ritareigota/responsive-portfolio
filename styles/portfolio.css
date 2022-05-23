@@ -45,6 +45,11 @@ h2 {
     background-color: var(--primary-color);
     text-align: center;
     padding: 10px 80px;
+    transition: all 100ms ease-in-out;
+}
+
+.contact-btn:hover {
+    color: white;
 }
 
 .images {
@@ -71,6 +76,9 @@ h2 {
     line-height: 1.7;
 }
 
+.content h1 {
+    font-size: 32px;
+}
 .navbar-container {
     background-color: var(--secondary-color);
     padding: 20px;
@@ -80,11 +88,18 @@ h2 {
     font-size: 20px;
     font-weight: 500;
 }
+nav {
+    margin: auto;
+}
+
+nav ul {
+    margin: 0;
+}
 nav li {
     display: inline;
     list-style: none;
-    line-height: 31px;
     padding: 10px;
+    margin: auto;
 }
 
 nav a {
@@ -149,8 +164,11 @@ footer .social-links a:hover {
         width: 300px;
     }
 
+    .contact-btn {
+        padding: 20px 30px;
+    }
     .content h1 {
-        font-size: 40px;
+        font-size: 22px;
     }
     .content p {
         margin: 15px 20px;
